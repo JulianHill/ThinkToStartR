@@ -1,0 +1,10 @@
+Package: ThinkToStart
+Type: Package
+Title: All the tutorial from ThinkToStart.wordpress.com in one package
+Version: 1.0
+Date: 2014-03-21
+Author: Julian Hillebrand
+Maintainer: Twitter: @JulianHi
+Description: Just install the package and take a look at my tutorial in my blog. There you will also
+            find the function names for the tutorials.
+License: /

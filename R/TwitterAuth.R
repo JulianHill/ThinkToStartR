@@ -1,0 +1,7 @@
+TwitterAuth <- function(){
+  
+  
+  
+  
+  #return(object)
+}
