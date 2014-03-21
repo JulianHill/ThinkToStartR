@@ -3,7 +3,8 @@
 # Author: Kay Cichini
 # Date: 2012-06-19
 # Licence: cc by-nc-sa
-
+  
+  
 instant_pkgs <- function(pkgs) { 
     pkgs_miss <- pkgs[which(!pkgs %in% installed.packages()[, 1])]
     if (length(pkgs_miss) > 0) {

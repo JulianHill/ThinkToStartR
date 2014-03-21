@@ -2,6 +2,7 @@ SentimentCloud <- function(keyword,n,db_key)
 {
    instant_pkgs(c("twitteR","RCurl","RJSONIO","stringr","tm","wordcloud"))
   
+  
    print("Getting tweets...")
   # get some tweets
 tweets = searchTwitter(keyword, n, lang="en")
