@@ -1,8 +1,6 @@
 ThinkToStart <- function(fun,...){
 
- #status=FALSE
-  
-	#AA = 'foo'
+ 
 switch(fun, 
 TwitterAuth={
 
@@ -17,6 +15,10 @@ SentimentCloud={
  
   
 },
+Foursquare_auth={
+  token <- foursquare_auth(...)
+},
+
 {
    print("No function defined")
 }

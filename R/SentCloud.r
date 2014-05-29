@@ -33,22 +33,22 @@ print("Getting sentiments...")
 tweet_df <- tweet_df[tweet_df$sentiment!="",]
 
 
-#separate text by emotion
-emos = levels(factor(tweet_df$sentiment))
+#separate text by sentiment
+sents = levels(factor(tweet_df$sentiment))
 #emos_label <- emos
 
 
 # get the labels and percents
 
-labels <-  lapply(emos, function(x) paste(x,format(round((length((tweet_df[tweet_df$sentiment ==x,])$text)/length(tweet_df$sentiment)*100),2),nsmall=2),"%"))
+labels <-  lapply(sents, function(x) paste(x,format(round((length((tweet_df[tweet_df$sentiment ==x,])$text)/length(tweet_df$sentiment)*100),2),nsmall=2),"%"))
 
 
 
-nemo = length(emos)
+nemo = length(sents)
 emo.docs = rep("", nemo)
 for (i in 1:nemo)
 {
-  tmp = tweet_df[tweet_df$sentiment == emos[i],]$text
+  tmp = tweet_df[tweet_df$sentiment == sents[i],]$text
    
    emo.docs[i] = paste(tmp,collapse=" ")
 }
