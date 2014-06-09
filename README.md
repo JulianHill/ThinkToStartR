@@ -6,6 +6,9 @@ hljs.initHighlightingOnLoad();
 
 ThinkToStartR package
 ========================================================
+<h3>Update 09.06.2014</h3>
+Fixed the oAuth process.
+
 
 <h3>Install</h3>
 
