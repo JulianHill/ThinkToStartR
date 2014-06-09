@@ -7,7 +7,7 @@ hljs.initHighlightingOnLoad();
 ThinkToStartR package
 ========================================================
 
-Install
+<h3>Install</h3>
 
 To install the ALPHA version of the package open up R and use:
 
@@ -20,3 +20,30 @@ dev_mode(on=T)
 install_github("ThinkToStartR",username="JulianHill")
 
 </code></pre>
+
+<h3>Usage </h3>
+
+In this first ALPHA version the package just includes some functions.
+
+You can call the functions with the ThinkToStart function:
+
+<pre><code class="r">
+ThinkToStart(FUNCTIONNAME, ... additional parameters)
+</code></pre>
+Twitter Sentiments Wordcloud:
+
+<pre><code class="r">
+library(ThinkToStart)
+ThinkToStart("TwitterAuth",api_key="yourAPIKEY",api_secret="yourAPISECRET")
+</code></pre>
+Now you can create a sentiment cloud with:
+
+<pre><code class="r">
+ThinkToStart("SentimentCloud","iphone",30,"YOUR DATUMBOX API KEY")
+</code></pre>
+Foursquare Checkin Map:
+
+<pre><code class="r">
+token <-ThinkToStart("Foursquare_auth",app_name="R_Test",app_id="XXX",app_secret="XXX")
+ 
+map <- ThinkToStart("Foursquare_map",token)</code></pre>
