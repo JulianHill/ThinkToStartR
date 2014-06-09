@@ -41,9 +41,12 @@ Now you can create a sentiment cloud with:
 <pre><code class="r">
 ThinkToStart("SentimentCloud","iphone",30,"YOUR DATUMBOX API KEY")
 </code></pre>
+
 Foursquare Checkin Map:
 
 <pre><code class="r">
 token <-ThinkToStart("Foursquare_auth",app_name="R_Test",app_id="XXX",app_secret="XXX")
  
-map <- ThinkToStart("Foursquare_map",token)</code></pre>
+map <- ThinkToStart("Foursquare_map",token)
+
+</code></pre>
