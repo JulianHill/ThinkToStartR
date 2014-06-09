@@ -1,6 +1,11 @@
 foursquare_auth <-function(app_name,app_id,app_secret)
-{require(RCurl)
- require(httr)
+{
+ 
+  
+  instant_pkgs(c("RCurl","httr","jsonlite","httpuv"))
+  
+#require(RCurl)
+ #require(httr)
  
  
  ## getting callback URL

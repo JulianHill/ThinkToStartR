@@ -1,5 +1,6 @@
 TwitterAuth <- function(api_key,api_secret){
   
+  #source("R/instant.pkgs.r")
   instant_pkgs(c("twitteR","RCurl"))
 
 
