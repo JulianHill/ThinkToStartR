@@ -11,9 +11,12 @@ Install
 
 To install the ALPHA version of the package open up R and use:
 
+<pre><code class="r">
 
 require(devtools) #install if necessary (install.packages("devtools")
  
 dev_mode(on=T)
  
 install_github("ThinkToStartR",username="JulianHill")
+
+</code></pre>
