@@ -6,3 +6,11 @@ Date: 2014-03-21
 Author: Julian Hillebrand
 Description: Just install the package and take a look at my tutorial in my blog. There you will also find the function names for the tutorials.
 License: 
+Imports:
+  twitteR,
+  RCurl,
+  RJSONIO,
+  stringr,
+  tm,
+  wordcloud,
+  httr

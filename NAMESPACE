@@ -1,1 +1,9 @@
 exportPattern("^[[:alpha:]]+")
+
+import(twitteR)
+import(RCurl)
+import(RJSONIO)
+import(stringr)
+import(tm)
+import(wordcloud)
+import(httr)
