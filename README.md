@@ -4,8 +4,13 @@ var hljs=new function(){function m(p){return p.replace(/&/gm,"&amp;").replace(/<
 hljs.initHighlightingOnLoad();
 </script>
 
+
+
 ThinkToStartR package
 ========================================================
+
+[![Build Status](https://travis-ci.org/JulianHill/ThinkToStartR.svg?branch=master)](https://travis-ci.org/JulianHill/ThinkToStartR)
+
 <h3>Update 09.06.2014</h3>
 Fixed the oAuth process.
 
