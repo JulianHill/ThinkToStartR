@@ -1,5 +1,5 @@
 exportPattern("^[[:alpha:]]+")
-
+import(Rfacebook)
 import(twitteR)
 import(RCurl)
 import(RJSONIO)
