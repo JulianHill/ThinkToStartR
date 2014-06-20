@@ -17,5 +17,8 @@ after_failure:
 
 notifications:
   email:
+email:
+    recipients:
+    - thinktostart@gmail.com
     on_success: change
     on_failure: change
