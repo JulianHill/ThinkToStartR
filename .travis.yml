@@ -8,7 +8,7 @@ before_install:
 install:
   - cd ThinkToStartR
   - ../travis-tool.sh install_deps
-script: ../travis-tool.sh run_tests
+
 
 after_failure:
   - ../travis-tool.sh dump_logs
