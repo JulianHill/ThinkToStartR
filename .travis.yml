@@ -7,11 +7,9 @@ before_install:
   - ./travis-tool.sh bootstrap
 install:
   - cd ThinkToStartR
-  - ../travis-tool.sh install_deps
-
-
+  - ./travis-tool.sh install_deps
 after_failure:
-  - ../travis-tool.sh dump_logs
+  - ./travis-tool.sh dump_logs
 
 notifications:
   email:
