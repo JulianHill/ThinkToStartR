@@ -8,7 +8,7 @@
 instant_pkgs <- function(pkgs) { 
     pkgs_miss <- pkgs[which(!pkgs %in% installed.packages()[, 1])]
     if (length(pkgs_miss) > 0) {
-        install.packages(pkgs_miss)
+        install.packages(pkgs_miss,repos = "http://cran.us.r-project.org")
     }
     
 	if (length(pkgs_miss) == 0) {
@@ -18,7 +18,7 @@ instant_pkgs <- function(pkgs) {
     # install packages not already loaded:
     pkgs_miss <- pkgs[which(!pkgs %in% installed.packages()[, 1])]
     if (length(pkgs_miss) > 0) {
-        install.packages(pkgs_miss)
+        install.packages(pkgs_miss,repos = "http://cran.us.r-project.org")
     }
     
     # load packages not already loaded:
