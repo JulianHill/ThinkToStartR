@@ -25,7 +25,7 @@ require(devtools) #install if necessary (install.packages("devtools")
  
 dev_mode(on=T)
  
-install_github("ThinkToStartR",username="JulianHill")
+install_github("ThinkToStartR",username="JulianHill",subdir="ThinkToStartR")
 
 </code></pre>
 
